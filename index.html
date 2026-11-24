@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🔴 LIVE RECORDER</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0f0f0f; color: white; font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 15px; }
+.box { background: #1c1c1c; width: 100%; max-width: 500px; padding: 25px; border-radius: 20px; border: 1px solid #333; text-align: center; box-shadow: 0 0 30px rgba(255,0,0,0.2); }
+h1 { font-size: 28px; margin-bottom: 5px; }
+p { color: #aaa; font-size: 14px; margin-bottom: 20px; }
+label { display: block; text-align: left; margin: 15px 0 5px 5px; font-size: 14px; color: #ddd; }
+input { width: 100%; padding: 14px; border-radius: 12px; border: 1px solid #333; background: #2a2a2a; color: white; font-size: 15px; outline: none; }
+input:focus { border-color: red; }
+button { width: 100%; padding: 15px; margin-top: 20px; background: red; color: white; border: none; border-radius: 12px; font-size: 18px; font-weight: bold; cursor: pointer; }
+button:active { transform: scale(0.98); }
+.note { margin-top: 15px; font-size: 12px; color: #777; }
+</style>
+</head>
+<body>
+<div class="box">
+<h1>🔴 LIVE RECORDER</h1>
+<p>তোর নিজের লাইভের m3u8 লিংক দে, রেকর্ড কইরা Gofile এ পাঠাই দিমু</p>
+
+<form action="/record" method="post">
+<label>
